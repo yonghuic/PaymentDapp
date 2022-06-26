@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PaymentDapp/static/css/main.7c854d2b.css",
+    "main.js": "/PaymentDapp/static/js/main.37f1f9d2.js",
+    "static/js/787.88c46938.chunk.js": "/PaymentDapp/static/js/787.88c46938.chunk.js",
+    "index.html": "/PaymentDapp/index.html",
+    "main.7c854d2b.css.map": "/PaymentDapp/static/css/main.7c854d2b.css.map",
+    "main.37f1f9d2.js.map": "/PaymentDapp/static/js/main.37f1f9d2.js.map",
+    "787.88c46938.chunk.js.map": "/PaymentDapp/static/js/787.88c46938.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c854d2b.css",
+    "static/js/main.37f1f9d2.js"
+  ]
+}
