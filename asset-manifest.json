@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/PaymentDapp/static/css/main.7c854d2b.css",
-    "main.js": "/PaymentDapp/static/js/main.37f1f9d2.js",
-    "static/js/787.88c46938.chunk.js": "/PaymentDapp/static/js/787.88c46938.chunk.js",
-    "index.html": "/PaymentDapp/index.html",
-    "main.7c854d2b.css.map": "/PaymentDapp/static/css/main.7c854d2b.css.map",
-    "main.37f1f9d2.js.map": "/PaymentDapp/static/js/main.37f1f9d2.js.map",
-    "787.88c46938.chunk.js.map": "/PaymentDapp/static/js/787.88c46938.chunk.js.map"
+    "main.css": "/payment/static/css/main.7c854d2b.css",
+    "main.js": "/payment/static/js/main.3dd2043d.js",
+    "static/js/787.88c46938.chunk.js": "/payment/static/js/787.88c46938.chunk.js",
+    "static/media/logo.png": "/payment/static/media/logo.2b00189fddc39976c89a.png",
+    "index.html": "/payment/index.html",
+    "main.7c854d2b.css.map": "/payment/static/css/main.7c854d2b.css.map",
+    "main.3dd2043d.js.map": "/payment/static/js/main.3dd2043d.js.map",
+    "787.88c46938.chunk.js.map": "/payment/static/js/787.88c46938.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c854d2b.css",
-    "static/js/main.37f1f9d2.js"
+    "static/js/main.3dd2043d.js"
   ]
 }
