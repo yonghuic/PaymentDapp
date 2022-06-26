@@ -1,10 +1,13 @@
 import React from "react";
 import "./Home.css"
 
+![](./img/image.svg)
+
+![](img/image.svg)
 function Home () {
     return (
        <>
-       <div className="logoimage"><img src="./https://yonghuic.github.io/PaymentDapp/public/logo.png" alt="pay"/></div>
+       <div className="logoimage"><img src="./img/logo.png" alt="pay"/></div>
        </> 
     )
 }
