@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+#ptitle {
+    color: rgb(63, 82, 105);
+    display: block;
+    font-family: Potta One;
+    text-align: center;
+    font-size: 50px;
+    background-color: #fefade; 
+
+    border-radius: 0.6em;
+    border-style: solid;
+    border-width: 3px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+
+.paymenttitle {
+
+    font-family: Potta One;
+    font-size: 80px;
+    color: #fdc92f;
+    background-color: aliceblue;
+    
+    border-style:double;
+    border-color: #2e2915;
+    border-width:8px;
+
+    margin: 50px 150px 50px 150px;
+    padding:5px;
+    position: relative;
+    text-align: center;
+}
+
+#paymentbox {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color: #FFC98D; 
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#paymentlabel {
+    font-size: 20px;
+}
+
+#paymentinput {
+    font-family: Potta One;
+    font-size: 20px;
+    border-radius: 1em;
+    border-width: 2px;
+    
+}
+
+#paymentinputmessage {
+    font-family: Setofont;
+    font-size: 20px;
+    border-radius: 1em;
+    border-width: 2px;
+    /*border-color: #69461d;*/
+}
+
+#paymentbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-family: Potta One;
+    font-size: 20px;
+    border-radius: 1em;
+}
+
+#paymenthashbox {
+    width: 45%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color: #FFC98D; 
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#copybutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;
+
+    font-family: Potta One;
+    border-radius: 1em;
+}
+
+/*匯率換算*/
+#converter {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}

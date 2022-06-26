@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+#header {
+  background-color: #FFF59D; 
+  text-align: center;
+  padding: 10px;
+  font-size: 80px;
+  font-weight:bold;
+  color:rgb(63, 82, 105);
+  font-family: Italianno;
+}
+
+#dapp {
+  font-family: Playball;
+  font-size: 60px;
+}
+
+#footer {
+  background-color: #FFF59D;
+  color: rgb(63, 82, 105);
+  padding: 23px;
+  text-align: center;
+  font-family: Pattaya;
+}
+
+.navbar-item {
+  font-family: Potta One;
+  font-size: 35px;
+  
+}
+
 .App {
   text-align: center;
 }
