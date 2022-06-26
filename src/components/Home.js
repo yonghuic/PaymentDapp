@@ -7,7 +7,7 @@ import "./Home.css"
 function Home () {
     return (
        <>
-       <div className="logoimage"><img src="./img/logo.png" alt="pay"/></div>
+       <div className="logoimage"><img src="./logo.png" alt="pay"/></div>
        </> 
     )
 }
