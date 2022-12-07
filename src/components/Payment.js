@@ -7,7 +7,7 @@ import copy from "copy-to-clipboard";
 
 function Payment () {
 
-    const [address, setAddress] = useState('')  //接收者錢包地址
+    const [receicer, setReceiver] = useState('')  //接收者錢包地址
     const [amount, setAmount] = useState('')    //要發送的ETH數量
     const [hash, setHash] = useState('')        //這筆交易的Hash
     const [message, setMessage] = useState('')  //備註
@@ -73,7 +73,7 @@ function Payment () {
 	}
 ]
         const contract = new ethers.Contract(ContractAddress, ContractABI, signer);
-        const transaction = await contract.sendeth(address, amount, message, { value: ethers.utils.parseEther(amount)});
+        const transaction = await contract.sendeth(receiver, amount, message, { value: ethers.utils.parseEther(amount)});
         setHash(transaction.hash)
         
     }
@@ -102,7 +102,7 @@ function Payment () {
             <div className="field" >
                 <label className="label" id="paymentlabel">接收者錢包地址:</label>
                 <div className="control">
-                    <input id="paymentinput" value={address} onChange={(event) => setAddress(event.target.value)} className="input is-warning" type="text"/>
+                    <input id="paymentinput" value={receiver} onChange={(event) => setReceiver(event.target.value)} className="input is-warning" type="text"/>
                 </div>
             </div>
 
