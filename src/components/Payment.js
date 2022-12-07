@@ -21,57 +21,57 @@ function Payment () {
         
         //和合約做互動
         const signer = provider.getSigner(); 
-        const ContractAddress = "0x92A44d5B3eAD8B9F618BcF75247497BC3C4286b2"
+        const ContractAddress = "0x8A332e2f5B85BDB2606650D02CCbc2447468F0C4"
         const ContractABI = [
-            {
-                "anonymous": false,
-                "inputs": [
-                    {
-                        "indexed": false,
-                        "internalType": "address",
-                        "name": "receiver",
-                        "type": "address"
-                    },
-                    {
-                        "indexed": false,
-                        "internalType": "uint256",
-                        "name": "amount",
-                        "type": "uint256"
-                    },
-                    {
-                        "indexed": false,
-                        "internalType": "string",
-                        "name": "message",
-                        "type": "string"
-                    }
-                ],
-                "name": "Send",
-                "type": "event"
-            },
-            {
-                "inputs": [
-                    {
-                        "internalType": "address payable",
-                        "name": "receiver",
-                        "type": "address"
-                    },
-                    {
-                        "internalType": "uint256",
-                        "name": "amount",
-                        "type": "uint256"
-                    },
-                    {
-                        "internalType": "string",
-                        "name": "message",
-                        "type": "string"
-                    }
-                ],
-                "name": "sendeth",
-                "outputs": [],
-                "stateMutability": "payable",
-                "type": "function"
-            }
-        ]
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "receiver",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			}
+		],
+		"name": "Send",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address payable",
+				"name": "receiver",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			}
+		],
+		"name": "sendeth",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	}
+]
         const contract = new ethers.Contract(ContractAddress, ContractABI, signer);
         const transaction = await contract.sendeth(address, amount, message, { value: ethers.utils.parseEther(amount)});
         setHash(transaction.hash)
