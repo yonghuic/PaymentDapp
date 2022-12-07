@@ -21,7 +21,7 @@ function Payment () {
         
         //和合約做互動
         const signer = provider.getSigner(); 
-        const ContractAddress = "0xC52Ebdd5EbDF6588638b2560B98e194126c86192"
+        const ContractAddress = "0x92A44d5B3eAD8B9F618BcF75247497BC3C4286b2"
         const ContractABI = [
             {
                 "anonymous": false,
